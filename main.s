@@ -75,7 +75,7 @@ main:
   lea rdi,[rip + L1]
   mov esi,SDL_WINDOWPOS_CENTER
   mov edx,SDL_WINDOWPOS_CENTER
-  mov ecx,800 
+  mov ecx,900 
   mov r8d,600 
   mov r9d,SDL_VIRTUAL_RESIZABLE
   call SDL_CreateWindow
